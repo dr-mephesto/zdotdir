@@ -4,9 +4,7 @@
 #
 
 # single character aliases - be sparing!
-alias _=sudo
-alias l=ls
-alias g=git
+#alias _=sudo
 
 # mask built-ins with better defaults
 alias vi=vim
@@ -15,6 +13,7 @@ alias vi=vim
 alias ll='ls -lh'
 alias la='ls -lAh'
 alias ldot='ls -ld .*'
+alias ldir='ls -d */'
 
 # fix common typos
 alias quit='exit'

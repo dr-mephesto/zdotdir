@@ -22,7 +22,8 @@
 ### Regular Plugins
 #
 # Plugins are the simplest kind of bundles. You can point to a full git URL, or if you
-# assume GitHub.com, then you can use the user/repo shorthand.
+# assume GitHub.com, then you can use
+# the user/repo shorthand.
 #
 ###
 https://github.com/peterhurford/up.zsh
@@ -61,10 +62,11 @@ $ZDOTDIR/.aliases
 
 ### Prompts
 #
-# You can make certain themes available to the built-in Zsh prompt command using the
+# You can make certain themes 
+available to the built-in Zsh prompt command using the
 # `kind:fpath` annotation. A theme is not active for the prompt until this command is
 # run:
-#
+##
 #   autoload -Uz promptinit && promptinit
 #   prompt ${prompt_name:-pure}
 #
@@ -77,9 +79,12 @@ $ZDOTDIR/.aliases
 
 # Use kind:fpath for prompts you want available to promptinit.
 romkatv/powerlevel10k kind:fpath
+oddhorse/bubblegum-zsh kind:path
+spaceship-prompt/spaceship-prompt kind:fpath janjoswig/Ducula kind:fpath
+dracula/zsh.git kind:fpath
 
 # Or, just load a prompt plugin the normal way.
-sindresorhus/pure
+# sindresorhus/pure
 
 
 ### Utilities
@@ -119,14 +124,14 @@ romkatv/zsh-bench kind:path
 #   ohmyzsh/ohmyzsh path:lib/clipboard.zsh
 #
 ####
-getantidote/use-omz
-ohmyzsh/ohmyzsh path:lib/clipboard.zsh
-ohmyzsh/ohmyzsh path:plugins/copybuffer
-ohmyzsh/ohmyzsh path:plugins/copyfile
-ohmyzsh/ohmyzsh path:plugins/copypath
-ohmyzsh/ohmyzsh path:plugins/extract
-ohmyzsh/ohmyzsh path:plugins/magic-enter
-ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
+#getantidote/use-omz
+#ohmyzsh/ohmyzsh path:lib/clipboard.zsh
+#ohmyzsh/ohmyzsh path:plugins/copybuffer
+#ohmyzsh/ohmyzsh path:plugins/copyfile
+#ohmyzsh/ohmyzsh path:plugins/copypath
+#ohmyzsh/ohmyzsh path:plugins/extract
+#ohmyzsh/ohmyzsh path:plugins/magic-enter
+#ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
 
 
 ### Framework: Prezto
